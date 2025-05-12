@@ -87,8 +87,18 @@ The application will be available at [http://localhost:8000/](http://localhost:8
 The application is available online at: [https://shop-management-ten.vercel.app/](https://shop-management-ten.vercel.app/)
 
 You can register for a new account or use these guest credentials to login:
-- Username: guest
-- Password: Abcd123#
+
+login as admin:
+- Username: admin1
+- Password: pass1234
+
+login as seller:
+- Username: seller1
+- Password: pass1234
+
+login as customer:
+- Username: customer1
+- Password: pass1234
 
 ## 📚 API Documentation
 
