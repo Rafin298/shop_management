@@ -144,6 +144,16 @@ SPECTACULAR_SETTINGS = {
     'DESCRIPTION': 'Product, Order, Inventory & Stock Management endpoints',
     'VERSION': '1.0.0',
     'SERVE_INCLUDE_SCHEMA': False,
+    # JWT authentication settings
+    'SECURITY': [{'Bearer': []}],
+    'SECURITY_DEFINITIONS': {
+        'Bearer': {
+            'type': 'http',
+            'scheme': 'bearer',
+            'bearerFormat': 'JWT',
+            'description': 'Enter your JWT token in the format: Bearer <token>'
+        }
+    },
 }
 
 # Internationalization
